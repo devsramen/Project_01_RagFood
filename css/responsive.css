@@ -1,0 +1,554 @@
+/* `xs` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.99px) {
+
+    /* Common CSS Start */
+    .heading_1 {
+        font-size: 40px;
+    }
+
+    .heading_2 {
+        font-size: 25px;
+    }
+
+    .heading_3 {
+        font-size: 20px;
+    }
+
+    .heading_4 {
+        font-size: 18px;
+    }
+
+    .navLogo {
+        width: 140px;
+    }
+    #commonBanner .heading_1 {
+        font-size: 32px;
+    }
+
+    /* Common CSS Ended */
+
+    /* =====================
+        HOME PAGE START
+    =======================*/
+    /* Banner */
+    #banner {
+        padding-top: 50px;
+    }
+
+    .hpBCOverlay {
+        padding: 180px 0 100px;
+    }
+
+    .banner_shape_1,
+    .banner_shape_2,
+    .banner_shape_3,
+    .banner_shape_4,
+    .banner_shape_5,
+    .banner_shape_6 {
+        display: none;
+    }
+
+    .hpBImage {
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+        box-shadow: var(--boxShadow);
+        overflow: hidden;
+        padding: 20px;
+        position: initial;
+        z-index: 1;
+    }
+
+    .hpBForm {
+        background: var(--colorWhite);
+        position: initial;
+        text-align: center;
+        margin-bottom: 100px;
+        border-radius: 30px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px;
+    }
+
+    #banner .hpBForm button {
+        width: 100%;
+        margin-top: 15px;
+        position: initial;
+    }
+
+    .hpBImageOff {
+        width: 100px;
+        height: 100px;
+        font-size: 25px;
+        left: -6px;
+        top: -11px;
+    }
+
+    .dO_slider_Item {
+        padding: 14px 0px 15px 131px;
+        margin: initial;
+    }
+    .dO_slider_Item .title {
+        font-size: 17px;
+        margin: 0px 0px 5px;
+    }
+
+    /* Reservation */
+    #hpReservation {
+        margin: 0 10px;
+    }
+    .hpReservationBG::after{
+        clip-path: none;
+        border-radius:15px;
+        -webkit-border-radius:15px;
+        -moz-border-radius:15px;
+        -ms-border-radius:15px;
+        -o-border-radius:15px;
+}
+
+    .hpReservation_content {
+        padding: 5px;
+    }
+
+    /* Menu */
+    #menu {
+        margin-bottom: 70px;
+    }
+
+    #menu .menuFilter button {
+        padding: 4px 15px;
+    }
+
+    /* Team */
+    #ourTeam {
+        padding: 70px 0;
+    }
+
+    /* HP best Sales */
+    .hpBSCardWrapper {
+        text-align: center;
+    }
+
+    #hpBestSales .heading_5 {
+        margin: 10px 0;
+    }
+
+    .hpBestSImage {
+        width: 81% !important;
+        height: auto !important;
+    }
+    /* HP OFFER */
+    .dO_slider_Item_off {
+        font-size: 14px;
+        top: 34px;
+        left: 49px;
+        width: 50px;
+        height: 50px;
+        line-height: 15px;
+    }
+    .dO_slider {
+        margin-top: 35px;
+        margin-left: 0;
+    }
+    
+
+    /* DOWNLOAD APP */
+        #download .heading_2 {
+        font-size: 30px;
+    }
+    /* TESTIMONIAL APP START */
+    .hpTestimonialItem::before {
+        height: 81.5%;
+    }
+    .commonArrowWrapper {
+        display: none;
+    }
+    #hpTestimonial .hpTestimonialItemWrapper .hpTestimonialItem .hpTestimonialContent .heading_2 {
+        font-size: 22px;
+    }
+    .hpTestimonialContent {
+        background-color: var(--colorBlack);
+        padding: 90px 24px 40px;
+    }
+    #hpTestimonial .heading_2 i {
+        font-size: 30px;
+    }
+
+    /* TESTIMONIAL APP ENDED */
+    /* COUNTER APP START */
+
+    /* COUNTER APP END */
+    /* BLOG APP START */
+    .hpBlogCardImageWrapper {
+        height: 175px;
+    }
+    .hpBlogHead {
+        font-size: 20px;
+    }
+    /* BLOG APP END */
+    
+    
+    
+    
+    /* COUNTER APP START */
+
+    /* COUNTER APP END */
+
+/* ==========================
+        HOME PAGE ENDED
+============================= */
+/* ==========================
+        ABOUT US PAGE START
+============================= */
+/* ABOUT US SECTION START */
+.apPicWrapper {
+    width: 300px;
+	height: 300px;
+}
+.apExperience {
+    width: 120px;
+	height: 120px;
+	font-size: 30px;
+	flex-direction: column;
+	padding: 0 22px;
+	right: 3%;
+	top: 45%;
+	z-index: 2;
+}
+.apParaText {
+    width: 100%;
+	margin-top: 30px;
+	position: inherit;
+}
+.apExperText {
+    font-size: 14px;
+}
+/* ABOUT US SECTION ENDED */
+/* MISSION US SECTION START */
+.apMissAliRig {
+	height: initial;
+	position: relative;
+}
+.apmissAlignRight {
+	width: 100%;
+	position: initial;
+	left: 100px;
+	top: 0;
+}
+.apMissVMG {
+	flex-direction: column;
+	justify-content: flex-start !important;
+	align-items: flex-start !important;
+}
+.apMissInfo {
+    width: initial;
+	margin-top: 25px;
+}
+/* MISSION US SECTION ENDED */
+
+/* WHY CHOOSE US SECTION START */
+.apAlbout_ChefImageWra {
+	width: 100%;
+	margin-left: initial;
+	margin-top: 25px;
+}
+
+
+/* WHY CHOOSE US SECTION ENDED */
+
+/* ==========================
+        ABOUT US PAGE ENDED
+============================= */
+
+/* ==========================
+        CONTACT PAGE START
+============================= */
+.cpContact_form {
+	padding: 10px;
+}
+.cpContact_map {
+	height: 280px;
+}
+/* ==========================
+        CONTACT PAGE ENDED
+============================= */
+
+/* ==========================
+        MENU DETAILS PAGE START
+============================= */
+.bdpImage_comments{
+	flex-wrap: wrap;
+	gap: 15px;
+}
+.bdpTitle {
+	font-size: 25px;
+}
+.bdpSubTitle {
+	font-size: 22px;
+	margin-top: 21px;
+}
+.bdpTagShare {
+	flex-wrap: wrap;
+}
+.bdpTag_title, .bdpShare_title {
+	display: block;
+}
+.bdpShare {
+	flex-wrap: wrap;
+	margin-top: 15px;
+}
+/* ==========================
+    MENU DETAILS PAGE ENDED
+============================= */
+
+/* ==========================
+    CHECKOUT PAGE START
+============================= */
+.copSectionTitle {
+    font-size: 20px;
+}
+/* ==========================
+    CHECKOUT PAGE ENDED
+============================= */
+
+/* ================================
+PAYMENT SECTION START
+================================ */
+.ppImage_Wrapper {
+	height: auto;
+}
+/* ================================
+    PAYMENT SECTION END
+================================ */
+
+/* ================================
+    TESTIMONIAL SECTION START
+================================ */
+#tpTestimonial .hpTestimonialContent .heading_2 {
+	font-size: 22px;
+}
+#tpTestimonial .heading_2 i {
+	font-size: 30px;
+}
+
+/* ================================
+TESTIMONIAL SECTION END
+================================ */
+
+/* ================================
+        ERROR SECTION START
+================================= */
+.epError_Image_Wrapper {
+    width: 300px;
+    height: 170px;
+}
+/* ================================
+        ERROR SECTION END
+================================= */
+
+/* ================================
+        FAQs SECTION START
+    ============================ */
+.faqpImage_Wrapper {
+    width: 100%;
+    height: auto;
+}    
+/* ================================
+        FAQs SECTION END
+    ============================ */
+
+/* ================================
+        SIGN IN SECTION START
+    ============================ */
+.sipSignIn_Heading {
+    font-size: 25px;
+}
+.sipSignIn_Wrapper {
+	padding: 10px;
+}
+.remember_ForgPass {
+	flex-wrap: wrap;
+}
+/* ================================
+        SIGN IN SECTION END
+    ============================ */
+
+/* ================================
+    PRIVACY & POLICY SECTION START
+================================= */
+.pppPolicy_Section_Title {
+	font-size: 22px;
+}
+/* ================================
+    PRIVACY & POLICY SECTION END
+================================= */
+
+/* ================================
+    USER DESHBOARD SECTION START
+================================= */
+.udpRight_Info_Wrapper {
+	padding: 15px;
+}
+.updRight_Info_Title {
+	font-size: 20px;
+}
+.udpRight_Info_Inner_Wrapper {
+	padding: 10px 15px;
+}
+.udpRigh_info_Inner_Content{
+	flex-direction: column;
+    align-items: flex-start !important;
+    justify-content: flex-start !important;
+}
+.udpRight_Info_Title_Wrapper{
+    margin-top: 30px;
+}
+
+
+/* ================================
+    USER DESHBOARD SECTION END
+================================= */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+/* `md` applies to small devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767.99px) {
+    /* ==========================
+            HOME PAGE START
+    ============================= */
+    /* Header Top */
+    .toperInfo {
+        display: none !important;
+    }
+
+
+
+    /* Banner */   
+    #banner {
+        padding-top: 8px;
+        position: relative;
+    } 
+    .hpBCOverlay {
+        height: 100%;
+        padding: 180px 0 560px;
+    }
+    .banner_shape_1,
+    .banner_shape_2,
+    .banner_shape_3,
+    .banner_shape_4,
+    .banner_shape_5,
+    .banner_shape_6 {
+        display: none;
+    }
+    .hpBImage {
+        height: 400px;
+        width: 400px;
+        left: 50%;
+        top: 50px;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+    }
+    .hpBImageOff {
+        width: 100px;
+        height: 100px;
+        left: 25px;
+        top: 60px;
+        font-size: 30px;
+    }
+
+    /* Offer */
+    .dO_slider_Item p {
+        -webkit-line-clamp: initial;
+    }
+    .dO_slider_Item .title {
+        margin: 0px 0px 5px;
+    }
+    .dO_slider_Item {
+        padding: 25px 12px 25px 220px;
+    }
+    .dO_slider_Item_off {
+        left: 137px;
+    }
+
+    /* Booking */
+    .reservation_shep {
+        clip-path: initial;
+        border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+    }
+
+    /* Food Menu */
+    .menuFilter.d-flex.flex-wrap.align-items-center.justify-content-lg-end.justify-content-center.gap-3 {
+        padding: 0 85px;
+    }
+    /* Best Sale */
+    .hpBestSalesImageWrapper {
+        padding: 30px;
+    }
+    #hpBestSales .heading_5 {
+        display: block;
+        text-align: center;
+    }
+    #hpBestSales .heading_2 {
+        text-align: center;
+    }
+    #hpBestSales .commonPara {
+        text-align: center;
+        padding: 0 80px;
+    }
+
+    /* Download */
+    #download .heading_2 {
+        font-size: 30px;
+    }
+
+
+
+    /* ==========================
+            HOME PAGE ENDED
+    ============================= */
+
+
+}
+
+/* `lg` applies to medium devices (tablets, less than 992px) */
+/* @media (min-width: 768px) and (max-width: 991.99px) { } */
+
+
+/* `xl` applies to large devices (desktops, less than 1200px) */
+/* @media (min-width: 992px) and (max-width: 1199.99px) { } */
+
+/* `xxl` applies to x-large devices (large desktops, less than 1400px) */
+/* @media (min-width: 1399.98px) { } */

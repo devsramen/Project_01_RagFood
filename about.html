@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- For Google -->
+    <meta name="description" content="Delicious Foods With Wonderful Eating">
+    <meta name="keywords" content="Biryani, Burger, Chicken Grill">
+    <meta name="Author" content="Ramen Biswas">
+
+    <!-- For Facebook -->
+    <meta property="og:site_name" content="All kinds of Delicious Foods With Wonderful Eating">
+    <meta property="og:url" content="https://devsramen.com">
+    <meta property="og:title" content="Delicious Foods With Wonderful Eating">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="images/logo.png">
+    <meta property="manifest" content="manifest.json">
+
+    <!-- For Cache Control -->
+    <meta http-equiv="cache-control" content="max-age=0">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="0">
+    <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT">
+    <meta http-equiv="pragma" content="no-cache">
+
+    <title>RagFood || Restaurent HTML Template Preview - ThemeForest</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+    <!-- ******************** All Font Family Start ************************* -->
+    <!-- Font Family : Manrope -->
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Family : Barlow -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Family : Oleo Script -->
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- ******************** All Font Family Ended ************************* -->
+
+    <!--font-awesome CSS-->
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <!-- Bootstrap CDN Link -->
+    <link rel="stylesheet" href="css/bootstrap_5.2.3.min.css">
+
+    <!-- ============================
+                PLUGING START
+         ============================ -->
+
+    <!-- Slick Slider  -->
+    <link rel="stylesheet" href="plugins/slick_Slider/slick.css">
+
+    <!-- nice-select  -->
+    <link rel="stylesheet" href="plugins/nice-select/nice-select.css">
+
+    <!-- venobox  -->
+    <link rel="stylesheet" href="plugins/venobox/venobox.min.css">
+
+    <!-- wow js -->
+    <link rel="stylesheet" href="plugins/WOW/animate.css">
+
+    <!-- jquery.exzoom for zoom CSS -->
+    <link rel="stylesheet" href="plugins/jquery_exzoom/jquery.exzoom.css">
+
+    <!-- ============================
+                PLUGING END
+         ============================ -->
+
+
+    <!-- Header & Footer CSS File Link -->
+    <link rel="stylesheet" href="css/headerFooter.css">
+
+    <!-- Spacing Row CSS File Link -->
+    <link rel="stylesheet" href="css/customSpacing.css">
+
+    <!-- Animation Row CSS File Link -->
+    <link rel="stylesheet" href="css/animation.css">
+
+    <!-- Default CSS File Link -->
+    <link rel="stylesheet" href="css/default.css">
+
+    <!-- CSS Row File Link -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Responsive Row File Link -->
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <!-- ==================
+        Topper Start
+    ================== -->
+    <section id="topper">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-sm-6 col-md-8">
+                    <ul class="toperInfo d-flex flex-wrap d-none d-sm-flex">
+                        <li>
+                            <a href="mailto:example@gmail.com">
+                                <i class="fa-regular fa-envelope"></i>
+                                examplemail@gmail.com
+                            </a>
+                        </li>
+                        <li>
+                            <a href="callto:123456789">
+                                <i class="fa-solid fa-phone"></i>
+                                +96487452145214
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xl-6 col-sm-6 col-md-4">
+                    <ul
+                        class="topperIcon d-flex flex-wrap justify-content-center justify-content-md-end justify-content-lg-end justify-content-xl-end justify-content-xxl-end align-items-center gap-3">
+                        <li>
+                            <a href="https://www.facebook.com/">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/login">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.behance.net/gallery/58902999/Login">
+                                <i class="fa-brands fa-behance"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ==================
+        Topper End
+    ================== -->
+    <!-- ==================
+        NAV MENU START
+    ================== -->
+    <nav id="navMenu">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="navWrapper d-flex align-items-center justify-content-between">
+                        <a class="navLogo" href="index.html">
+                            <img src="images/logo.png" alt="Image Not Found" class="logo img-fluid">
+                        </a>
+                        <button class="navbarToggler d-lg-none d-xl-none d-sm-block" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <i class="fa-solid fa-bars menu_icon_bar" aria-hidden="true"></i>
+                            <i class="fa-solid fa-xmark close_icon_close" aria-hidden="true"></i>
+                        </button>
+                        <ul
+                            class="navBarMain d-none d-sm-none d-lg-flex d-xl-flex d-xxl-flex justify-content-lg-center justify-content-xl-center justify-content-xxl-center align-items-lg-center align-items-xl-center align-items-xxl-center gap-4 m-auto">
+                            <li class="navItem">
+                                <a class="navLink active" href="index.html">Home</a>
+                            </li>
+                            <li class="navItem">
+                                <a class="navLink" href="about.html">about</a>
+                            </li>
+                            <li class="navItem">
+                                <a class="navLink" href="menu.html">menu</a>
+                            </li>
+                            <li class="navItem">
+                                <a class="navLink" href="chefs.html">chefs</a>
+                            </li>
+                            <li class="navItem">
+                                <a class="navLink" href="#">pages <i
+                                        class="fa-solid fa-angle-down nvaDownArrow"></i></a>
+                                <ul class="subMenu">
+                                    <li class="subMenuItem">
+                                        <a href="menu_Details.html" class="subMenuLink">menu details</a>
+                                    </li>
+                                    <li class="subMenuItem">
+                                        <a href="blog_Details.html" class="subMenuLink">blog details</a>
+                                    </li>
+                                    <li class="subMenuItem">
+                                        <a href="cart_view.html" class="subMenuLink">cart view</a>
+                                    </li>
+                                    <li class="subMenuItem">
+                                        <a href="checkout.html" class="subMenuLink">checkout</a>
+                                    </li>
+                                    <li class="subMenuItem">
+                                        <a href="payment.html" class="subMenuLink">payment</a>
+                                    </li>
+                                    <li class="subMenuItem">
+                                        <a href="testimonial.html" class="subMenuLink">testimonial</a>
+                                    </li>
+                                    <li class="subMenuItem">
+                                        <a href="404_error.html" class="subMenuLink">404/error</a>
+                                    </li>
+                                    <li class="subMenuItem">
+                                        <a href="faqs.html" class="subMenuLink">FAQs</a>
+                                    </li>
+                                    <li class="subMenuItem">
+                                        <a href="sign_in.html" class="subMenuLink">sign in</a>
+                                    </li>
+                                    <li class="subMenuItem">
+                                        <a href="forgot_password.html" class="subMenuLink">forgot password</a>
+                                    </li>
+                                    <li class="subMenuItem">
+                                        <a href="privacy_policy.html" class="subMenuLink">privacy policy</a>
+                                    </li>
+                                    <li class="subMenuItem">
+                                        <a href="terms_condition.html" class="subMenuLink">terms and condition</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="navItem">
+                                <a class="navLink" href="blog.html">blog</a>
+                            </li>
+                            <li class="navItem">
+                                <a class="navLink" href="contact.html">contact</a>
+                            </li>
+                        </ul>
+                        <ul
+                            class="manuIconWrapper d-none d-sm-none d-lg-flex d-xl-flex d-xxl-flex justify-content-lg-end justify-content-xl-end justify-content-xxl-end align-items-center gap-3">
+                            <li>
+                                <a href="cart_view.html" class="cardView">
+                                    <i class="fa-solid fa-basket-shopping cartViewIcon"></i>
+                                    <span class="cartViewCount">05</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="user_Deshboard.html">
+                                    <i class="fa-solid fa-user userDeshboard"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <button type="submit">
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                    </button>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- ==================
+        NAV MENU END
+    ================== -->
+    <!-- =======================
+        BANNER SECTION START
+    ======================== -->
+    <section id="commonBanner" class="commonBanner xxl_pt_260 xxl_pb_130 sm_pt_180 sm_pb_60">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="heading_1">about us</h1>
+                    <div class="commonBannerText">
+                        <i class="fa-solid fa-house-chimney commonBannerIcon"></i>
+                        <a href="index.html" class="commonBannerHome">home -</a>
+                        <span class="commonBannerContent">About us</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =======================
+        BANNER SECTION END
+    ======================== -->
+    <!-- =======================
+        ABOUT US SECTION END
+    ======================== -->
+    <section id="apAboutUs" class="apAboutUs xxl_mt_100 xxl_mb_100 sm_mt_60 sm_mb_60">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-xxl-6 wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0s">
+                    <div class="apContent">
+                        <div class="apPicWrapper">
+                            <img src="images/about_chef.jpg" alt="Image Not Found" class="apPic">
+                        </div>
+                        <h3 class="apExperience">12+
+                            <span class="apExperText">years experience</span>
+                        </h3>
+                        <div class="apParaText">
+                            <p class="commonPara">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate officiis architecto reiciendis
+                            </p>
+                            <h5 class="heading_5">Jhon Deo</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-xxl-6 wow fadeInRight" data-wow-duration="2s" data-wow-delay="0s">
+                    <h4 class="heading_4 sm_mt_30">About Company</h4>
+                    <h2 class="heading_2">Helathy Foods Provider</h2>
+                    <p class="commonPara xxl_mt_25">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate aspernatur molestiae minima pariatur consequatur voluptate sapiente deleniti soluta,.
+                    </p>
+                    <ul>
+                        <li class="apAbouFacility d-flex align-items-xxl-center align-items-sm-start justify-content-start gap-3 mt_50">
+                            <div class="apAboutFacilityImageWrapper">
+                                <img src="images/about_check.png" alt="Image Not Found" class="apAboutFacilityImage">
+                            </div>
+                            <div class="apAboutFacilityTextWrraper">
+                                <h2 class="apAboutFacilityHeading mb_10">Trusted Partner</h2>
+                                <p class="commonPara">
+                                    Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Minus, Officiis Placeat Iusto Quasi Adipisci Impedit Delectus Beatae Ab Maxime.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="apAbouFacility d-flex align-items-xxl-center align-items-sm-start justify-content-start gap-3 mt_50">
+                            <div class="apAboutFacilityImageWrapper">
+                                <img src="images/about_check.png" alt="Image Not Found" class="apAboutFacilityImage">
+                            </div>
+                            <div class="apAboutFacilityTextWrraper">
+                                <h2 class="apAboutFacilityHeading mb_10">First Delivery</h2>
+                                <p class="commonPara">
+                                    Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Minus, Officiis Placeat Iusto Quasi Adipisci Impedit Delectus Beatae Ab Maxime.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="apAbouFacility d-flex align-items-xxl-center align-items-sm-start justify-content-start gap-3 mt_50">
+                            <div class="apAboutFacilityImageWrapper">
+                                <img src="images/about_check.png" alt="Image Not Found" class="apAboutFacilityImage">
+                            </div>
+                            <div class="apAboutFacilityTextWrraper">
+                                <h2 class="apAboutFacilityHeading mb_10">Secure Payment</h2>
+                                <p class="commonPara">
+                                    Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Minus, Officiis Placeat Iusto Quasi Adipisci Impedit Delectus Beatae Ab Maxime.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =======================
+        ABOUT US SECTION END
+    ======================== -->
+    <!-- =======================
+        MISSION US SECTION START
+    ======================== -->
+    <section id="apMission" class="apMission xxl_mb_100 sm_mb_60 xxl_pt_100 xxl_pb_100 sm_pt_25 xm_pb_60">
+        <div class="container">
+            <div class="row wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0s">
+                <div class="col-sm-12 col-xxl-6">
+                    <div class="apMissionWrapper">
+                        <div class="apMissVMG d-flex flex-xxl-row flex-sm-column align-items-center justify-content-start xxl_mt_30 sm_mt_35">
+                            <div class="apMissImageWrapper">
+                                <div class="apMissIconWrapper">
+                                    <i class="fa-solid fa-bullseye"></i>
+                                </div>
+                            </div>
+                            <div class="apMissInfo">
+                                <h2 class="apMissInfoTitle">Vision</h2>
+                                <p class="commonPara">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab corporis perspiciatis voluptatum odit.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="apMissAliRig xxl_mt_30 sm_mt_35">
+                            <div class="apMissVMG apmissAlignRight d-flex flex-xxl-row flex-sm-column align-items-center justify-content-start">
+                                <div class="apMissImageWrapper">
+                                    <div class="apMissIconWrapper">
+                                        <i class="fa-regular fa-lightbulb"></i>
+                                    </div>
+                                </div>
+                                <div class="apMissInfo">
+                                    <h2 class="apMissInfoTitle">Mission</h2>
+                                    <p class="commonPara">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab corporis perspiciatis voluptatum odit.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="apMissVMG d-flex flex-xxl-row flex-sm-column align-items-center justify-content-start xxl_mt_30 sm_mt_35">
+                            <div class="apMissImageWrapper">
+                                <div class="apMissIconWrapper">
+                                    <i class="fa-regular fa-gem"></i>
+                                </div>
+                            </div>
+                            <div class="apMissInfo">
+                                <h2 class="apMissInfoTitle">Goals</h2>
+                                <p class="commonPara">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab corporis perspiciatis voluptatum odit.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =======================
+        MISSION US SECTION END
+    ======================== -->
+    <!-- =======================
+        WHY CHOOSE US SECTION START
+    ======================== -->
+    <section id="apAbout_Choose" class="xxl_mb_100 sm_mb_60 sm_mt_60">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-xxl-8 wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0s">
+                    <h4 class="heading_4">why choose us</h4>
+                    <h2 class="heading_2 xxl_mb_25 sm_mb_15">Why We Are The Best</h2>
+                    <p class="commonPara">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius culpa, itaque repudiandae praesentium tempore quos, totam, facilis doloribus doloremque illo delectus.
+                    </p>
+                    <div class="row xxl_mt_35 sm_mt_20">
+                        <div class="col-sm-12 col-xxl-6 xxl_mt_28 sm_mt_15 sm_ml_10 sm_pr_30">
+                            <div class="apAboutItemWrapper xxl_ml_28 sm_ml_15">
+                                <span><i class="fa-solid fa-burger"></i></span>
+                                <h2 class="apAboutTitle mb_10">Fresh food</h2>
+                                <p class="commonPara">
+                                    Objectively pontificate quality models before intuitive information.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-xxl-6 xxl_mt_28 sm_mt_15 sm_ml_10 sm_pr_30">
+                            <div class="apAboutItemWrapper xxl_ml_28 sm_ml_15">
+                                <span><i class="fa-solid fa-burger"></i></span>
+                                <h2 class="apAboutTitle mb_10">Fresh food</h2>
+                                <p class="commonPara">
+                                    Objectively pontificate quality models before intuitive information.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-xxl-6 xxl_mt_28 sm_mt_15 sm_ml_10 sm_pr_30">
+                            <div class="apAboutItemWrapper xxl_ml_28 sm_ml_15">
+                                <span><i class="fa-solid fa-burger"></i></span>
+                                <h2 class="apAboutTitle mb_10">Fresh food</h2>
+                                <p class="commonPara">
+                                    Objectively pontificate quality models before intuitive information.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-xxl-6 xxl_mt_28 sm_mt_15 sm_ml_10 sm_pr_30">
+                            <div class="apAboutItemWrapper xxl_ml_28 sm_ml_15">
+                                <span><i class="fa-solid fa-burger"></i></span>
+                                <h2 class="apAboutTitle mb_10">Fresh food</h2>
+                                <p class="commonPara">
+                                    Objectively pontificate quality models before intuitive information.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-xxl-4 wow fadeInRight" data-wow-duration="2s" data-wow-delay="0s">
+                    <div class="apAlbout_ChefImageWra">
+                        <img src="images/why_choose_img.jpg" alt="Image Not Found" class="apAlbout_ChefImage">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =======================
+        WHY CHOOSE US SECTION END
+    ======================== -->
+
+
+    <!-- =======================
+        COUNTER APP START
+    ======================== -->
+    <section id="hpCounter" class="hpCounter xxl_pt_100 xxl_pb_100 xxl_mt_100 xxl_mb_100 sm_pt_60 sm_mb_60">
+        <div class="container">
+            <div class="row wow fadeInUp" data-wow-duration="2s" data-wow-delay="0s">
+                <div class="col-12 col-xxl-3">
+                    <div class="hpCounterItemWrapper">
+                        <div class="hpCounterItem d-flex align-items-center justify-content-center">
+                            <h2 class="counter">85,000</h2>
+                            <span class="hpCounterText">+</span>
+                            <i class="fa-solid fa-user-tie hpCounterIcon"></i>
+                        </div>
+                        <span class="hpCounterTitle d-block text-center sm_mb_70">customer serve</span>
+                    </div>
+                </div>
+                <div class="col-12 col-xxl-3">
+                    <div class="hpCounterItemWrapper">
+                        <div class="hpCounterItem d-flex align-items-center justify-content-center">
+                            <h2 class="counter">120</h2>
+                            <span class="hpCounterText">+</span>
+                            <i class="fa-solid fa-user-tie hpCounterIcon"></i>
+                        </div>
+                        <span class="hpCounterTitle d-block text-center sm_mb_70">Experience Chef</span>
+                    </div>
+                </div>
+                <div class="col-12 col-xxl-3">
+                    <div class="hpCounterItemWrapper">
+                        <div class="hpCounterItem d-flex align-items-center justify-content-center">
+                            <h2 class="counter">72,000</h2>
+                            <span class="hpCounterText">+</span>
+                            <i class="fa-solid fa-users hpCounterIcon"></i>
+                        </div>
+                        <span class="hpCounterTitle d-block text-center sm_mb_70">Happy Customer</span>
+                    </div>
+                </div>
+                <div class="col-12 col-xxl-3">
+                    <div class="hpCounterItemWrapper">
+                        <div class="hpCounterItem d-flex align-items-center justify-content-center">
+                            <h2 class="counter">30</h2>
+                            <span class="hpCounterText">+</span>
+                            <i class="fa-solid fa-trophy hpCounterIcon"></i>
+                        </div>
+                        <span class="hpCounterTitle d-block text-center sm_mb_70">Winning Award</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =======================
+        COUNTER APP END
+    ======================== -->
+        <!-- =======================
+        TESTIMONIAL APP START
+    ======================== -->
+    <section id="hpTestimonial" class="phTestimonial xxl_mt_100 xxl_mb_100 sm_mt_60 sm_mb_60">
+        <div class="container">
+            <div class="row wow fadeInUp" data-wow-duration="2s" data-wow-delay="0s">
+                <div class="col-xxl-6">
+                    <h4 class="heading_4">Testimonial</h4>
+                    <h2 class="heading_2">Our Customar Feedbacks</h2>
+                </div>
+                <div class="col-xxl-6">
+                    <div class="commonArrowWrapper">
+                        <div class="arrows">
+                            <i class="fa-solid fa-arrow-left prevArrow slick-arrow" aria-hidden="true"></i>
+                            <i class="fa-solid fa-arrow-right nextArrow slick-arrow" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row hpTestimonialItemWrapper wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.5s">
+                <div class="col-xxl-6 col-sm-12 sm_ml_10">
+                    <div class="hpTestimonialItem">
+                        <div class="hpTestimonialContent">
+                            <h2 class="heading_2 d-flex align-items-center justify-content-between">
+                                <i class="fa-solid fa-quote-left"></i>
+                                isita islam
+                                <i class="fa-solid fa-quote-right"></i>
+                            </h2>
+                            <span class="hpTestimonialItemSubTitle">nyc usa</span>
+                            <p class="commonPara">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut accusamus praesentium quaerat nihil magnam a porro eaque numquam
+                            </p>
+                            <div class="menuItemCatRating d-flex align-items-center justify-content-center gap-2">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <div class="hpTestimonialItemProfPic">
+                                <img src="images/testimonial_img_1.jpg" alt="Image not Found" class="hpTestimonialItemProfileImage">
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+                <div class="col-xxl-6 col-sm-12 sm_ml_10">
+                    <div class="hpTestimonialItem">
+                        <div class="hpTestimonialContent">
+                            <h2 class="heading_2 d-flex align-items-center justify-content-between">
+                                <i class="fa-solid fa-quote-left"></i>
+                                isita islam
+                                <i class="fa-solid fa-quote-right"></i>
+                            </h2>
+                            <span class="hpTestimonialItemSubTitle">nyc usa</span>
+                            <p class="commonPara">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut accusamus praesentium quaerat nihil magnam a porro eaque numquam
+                            </p>
+                            <div class="menuItemCatRating d-flex align-items-center justify-content-center gap-2">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <div class="hpTestimonialItemProfPic">
+                                <img src="images/testimonial_img_2.jpg" alt="Image not Found" class="hpTestimonialItemProfileImage">
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+                <div class="col-xxl-6 col-sm-12 sm_ml_10">
+                    <div class="hpTestimonialItem">
+                        <div class="hpTestimonialContent">
+                            <h2 class="heading_2 d-flex align-items-center justify-content-between">
+                                <i class="fa-solid fa-quote-left"></i>
+                                isita islam
+                                <i class="fa-solid fa-quote-right"></i>
+                            </h2>
+                            <span class="hpTestimonialItemSubTitle">nyc usa</span>
+                            <p class="commonPara">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut accusamus praesentium quaerat nihil magnam a porro eaque numquam
+                            </p>
+                            <div class="menuItemCatRating d-flex align-items-center justify-content-center gap-2">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <div class="hpTestimonialItemProfPic">
+                                <img src="images/testimonial_img_3.jpg" alt="Image not Found" class="hpTestimonialItemProfileImage">
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =======================
+        TESTIMONIAL APP END
+    ======================== -->
+    <!-- =======================
+            FOOTER START
+    ======================== -->
+    <footer id="footer">
+        <div class="footerOverlay pt_100 xs_pt_70 pb_100 xs_pb_20">
+            <div class="container wow fadeInUp" data-wow-duration="1s"
+                style="visibility: visible; animation-duration: 2s; animation-name: fadeInUp;">
+                <div class="row d-flex justify-content-lg-between">
+                    <div class="col-xxl-4 col-lg-4 col-sm-9 col-md-7 mb-5 mb-lg-0 mb-xl-0 mb-xxl-0">
+                        <div class="footerContent">
+                            <a class="footerLogo" href="index.html">
+                                <img src="images/footer_logo.png" alt="Image Not Found" class="logo img-fluid">
+                            </a>
+                            <p class="footerPara">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta facere delectus qui
+                                placeat inventore consectetur repellendus optio debitis.
+                            </p>
+                            <ul class="bottomIcon d-flex flex-wrap justify-content-start align-items-center">
+                                <li>
+                                    <a href="https://www.facebook.com/">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/">
+                                        <i class="fa-brands fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/login">
+                                        <i class="fa-brands fa-linkedin-in"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.behance.net/gallery/58902999/Login">
+                                        <i class="fa-brands fa-behance"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/accounts/login/">
+                                        <i class="fa-brands fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://support.google.com/answer/2451065?hl=en">
+                                        <i class="fa-brands fa-google-plus-g"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xxl-2 col-lg-2 col-sm-5 col-md-5 mb-5 mb-lg-0 mb-xl-0 mb-xxl-0">
+                        <div class="footerContent">
+                            <h3 class="footerSLTitle">Short Link</h3>
+                            <ul>
+                                <li><a href="index.html" class="footerSL">home</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="about.html" class="footerSL">About us</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="contact.html" class="footerSL">contact us</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="our_service.html" class="footerSL">Our Service</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="gallery.html" class="footerSL">gallery</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xxl-2 col-lg-2 col-sm-6 col-md-5 order-md-4 mb-5 mb-lg-0 mb-xl-0 mb-xxl-0">
+                        <div class="footerContent">
+                            <h3 class="footerSLTitle">help Link</h3>
+                            <ul>
+                                <li><a href="terms_condition.html" class="footerSL">Terms & Conditions</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="privacy_policy.html" class="footerSL">Privacy Policy</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="refund_policy.html" class="footerSL">Refund Policy</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="faqs.html" class="footerSL">FAQs</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="contact.html" class="footerSL">contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xxl-3 col-lg-4 col-sm-9 col-md-7 order-lg-4 mb-5 mb-lg-0 mb-xl-0 mb-xxl-0">
+                        <div class="footerContent">
+                            <h3 class="footerSLTitle">Contact Us</h3>
+                            <ul>
+                                <li class="footerContactItem d-flex align-items-center gap-3">
+                                    <i class="fa-solid fa-phone"></i>
+                                    <span>+44 (0) 20 9994 7740</span>
+                                </li>
+                            </ul>
+                            <li class="footerContactItem d-flex align-items-center gap-3">
+                                <i class="fa-regular fa-envelope"></i>
+                                <span>themefaxbd@gmail.com</span>
+                            </li>
+                            <li class="footerContactItem d-flex align-items-center gap-3">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <span>Blackwell Street,Dry Creek,Alaska</span>
+                            </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footerBottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <p>
+                            Copyright © <b>RegFood</b> 2023. All Rights Reserved
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- =======================
+            FOOTER END
+    ======================== -->
+    <!-- =======================
+            SCROLL START
+         ================== -->
+    <div class="scrool_btn">
+        <i class="fa-solid fa-hand-pointer"></i>
+    </div>
+    <!-- =======================
+            SCROLL END
+    ======================== -->
+
+
+
+    <!-- =============================================================================== -->
+
+    <!--jquery library js-->
+    <script src="js/jquery-3.6.0.min.js"></script>
+
+    <!--bootstrap js-->
+    <script src="js/bootstrap_5.2.3.bundle.min.js"></script>
+
+    <!--font-awesome js-->
+    <script src="js/fontawesome.min.js"></script>
+
+
+    <!-- ============================
+            PLUGING START
+    ============================ -->
+
+    <!-- isotop js -->
+    <script src="plugins/Isotope/isotope.pkgd.min.js"></script>
+
+    <!-- counter up js -->
+    <script src="plugins/jquery_countup/waypoints.min.js"></script>
+    <script src="plugins/jquery_countup/countup.min.js"></script>
+
+    <!-- nice select js -->
+    <script src="plugins/nice-select/jquery.nice-select.min.js"></script>
+
+    <!-- venobox js -->
+    <script src="plugins/venobox/venobox.min.js"></script>
+
+    <!-- slick slider -->
+    <script src="plugins/slick_Slider/slick.min.js"></script>
+
+    <!-- wow js -->
+    <script src="plugins/WOW/wow.min.js"></script>
+
+    <!-- jquery.exzoom for zoom js -->
+    <script src="plugins/jquery_exzoom/jquery.exzoom.js"></script>
+
+    <!-- ============================
+                PLUGING END
+        ============================ -->
+
+    <!--main/custom js-->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
