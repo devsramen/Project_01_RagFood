@@ -3053,3 +3053,17 @@ PAYMENT SECTION START
 /* ================================
     USER DESHBOARD SECTION END
 ================================= */
+
+/* ================================
+    COMING SOON SECTION START
+================================= */
+#coming_Soon .heading_1{
+    font-size: 150px;
+    font-weight: 900;
+    color: #4caf50;
+    color: linear;
+    text-transform: uppercase;
+}
+/* ================================
+    COMING SOON SECTION END
+================================= */
